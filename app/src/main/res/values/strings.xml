@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Toy</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="error">Error</string>
+    <string name="Done">Done</string>
+    <string name="ok">OK</string>
+
+    <string name="fieldes_cant_be_empty">Fields Cant be Empty!</string>
+    <string name="password_and_confirm_password_should_match_to_register">Password and Confirm Password should match to Register</string>
+    <string name="registered_successfully">Registered successfully</string>
+    <string name="registration_failed">Registration failed!</string>
+    <string name="user_exitsts">User already exists!</string>
+    <string name="user_email">Enterd Email Already exists!</string>
+    <string name="passwords_not_matching">Passwords not matching!</string>
+    <string name="user_does_not_exist">User does not exist!</string>
+    <string name="password_is_in_valid">Make Strong Password</string>
+    <string name="password_update_failed">Password update failed!</string>
+    <string name="password_updated_successfully">Password updated Successful</string>
+    <string name="login_successful">Login successful</string>
+    <string name="Sign_in_failed">Sign in Failed!</string>
+    <string name="login_admin">Login as Admin</string>
+    <string name="Ordered">Thank you for placing an order with us. We have received your order and it is being processed</string>
+    <string name="Ordere_failed">Sorry, we are unable to retrieve your ordered items at the moment. Please try again later or contact customer support for assistance.</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_userprofile">Profile</string>
+    <string name="logout">Log Out!</string>
+    <string name="logoutmsg">Are you sure you want to logout?</string>
+</resources>

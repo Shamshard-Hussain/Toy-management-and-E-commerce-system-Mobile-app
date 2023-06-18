@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.toy">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Toy First"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Toy"
+        tools:targetApi="31">
+        <activity
+            android:name="toy.Admin_search_Orders"
+            android:exported="false" />
+        <activity
+            android:name="toy.Admin_View_Orders"
+            android:exported="false" />
+        <activity
+            android:name="toy.Admin_Toy_search"
+            android:exported="false" />
+        <activity
+            android:name="toy.User_Cart"
+            android:exported="false" />
+        <activity
+            android:name="toy.User_Search_Toys"
+            android:exported="false" />
+        <activity
+            android:name="toy.Search_Category"
+            android:exported="false" />
+        <activity
+            android:name="toy.User_View_Toy"
+            android:exported="false" />
+        <activity
+            android:name="toy.UserHome"
+            android:exported="false" />
+        <activity
+            android:name="toy.Update_Toy"
+            android:exported="false" />
+        <activity
+            android:name="toy.View_toy_List"
+            android:exported="false" />
+        <activity
+            android:name="toy.Add_Toys"
+            android:exported="false" />
+        <activity
+            android:name="toy.Category_List"
+            android:exported="false" />
+        <activity
+            android:name="toy.Add_Category"
+            android:exported="false" />
+        <activity
+            android:name="toy.Admin_Home"
+            android:exported="false" />
+        <activity
+            android:name="toy.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name="toy.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name="toy.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

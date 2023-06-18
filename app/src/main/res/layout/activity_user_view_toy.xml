@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="toy.User_View_Toy">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="28dp"
+        android:layout_height="21dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:backgroundTint="@color/white"
+        app:srcCompat="@drawable/shopping_cart" />
+
+    <ImageView
+        android:id="@+id/imageback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:srcCompat="@drawable/ic_back" />
+
+    <ImageView
+        android:id="@+id/imagetoy"
+        android:layout_width="377dp"
+        android:layout_height="207dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="29dp"
+        app:srcCompat="@drawable/chat" />
+
+    <TextView
+        android:id="@+id/txt_T_Name"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imagetoy"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="27dp"
+        android:text="Toy Name"
+        android:textColor="#333333"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_T_Name"
+        android:layout_marginTop="1dp"
+        android:paddingLeft="40dp"
+        android:text="Category"
+        android:textColor="#2A465F"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textAgeGroup"
+        android:layout_width="271dp"
+        android:layout_height="28dp"
+        android:text="Age Group"
+        android:textColor="#2A465F"
+        android:textSize="20sp"
+        android:paddingLeft="40dp"
+        android:layout_below="@+id/textCategory"/>
+
+    <TextView
+        android:id="@+id/textPrice"
+        android:layout_width="271dp"
+        android:layout_height="28dp"
+        android:layout_below="@+id/textAgeGroup"
+        android:layout_marginBottom="32dp"
+        android:paddingLeft="40dp"
+        android:text="Price"
+        android:textColor="#2A465F"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textAvailabaleQty"
+        android:layout_width="271dp"
+        android:layout_height="28dp"
+        android:layout_below="@+id/textAgeGroup"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="32dp"
+        android:paddingLeft="40dp"
+        android:text=""
+        android:textColor="#2A465F"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textPrice"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="32dp"
+        android:paddingLeft="40dp"
+        android:text="Quantity : "
+        android:textColor="#2A465F"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editTextNumber3"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textPrice"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="26dp"
+        android:layout_toEndOf="@+id/text"
+        android:background="@drawable/edittext_border"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#2A465F"
+        android:textSize="20sp"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/buttoncart"
+        android:layout_width="257dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextNumber3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="63dp"
+        android:background="@drawable/switch_trcks"
+        android:text="Add to Cart"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttoncart"
+        android:text="TextView"
+        android:visibility="invisible" />
+</RelativeLayout>
+
